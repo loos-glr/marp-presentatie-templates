@@ -253,3 +253,72 @@ img[alt~="rounded"] {
   background-color: var(--glr-green);
   transition: width 1s linear;
 }
+
+/* tool-live-code */
+.columns-live {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  gap: 30px;
+  height: 100%;
+  align-items: stretch;
+}
+
+/* Instructie paneel styling */
+.instruction-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.instruction-panel h2 {
+  font-size: 32px;
+  border-bottom: 4px solid var(--glr-green);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  color: var(--glr-black);
+  background: transparent;
+  text-transform: none;
+}
+
+.tip-box {
+  background: #f0f0f0;
+  border-left: 5px solid var(--glr-green);
+  padding: 15px;
+  margin-top: 20px;
+  font-size: 0.8em;
+}
+
+/* Code paneel styling (Card look) */
+.code-panel {
+  background: black;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  border: 2px solid var(--glr-dark-grey);
+  height: 550px;
+}
+
+.code-panel iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Full screen container */
+.full-embed-container {
+  position: absolute;
+  top: 80px; /* Ruimte voor header */
+  left: 40px;
+  right: 40px;
+  bottom: 40px;
+  
+  background: black;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  border: 4px solid var(--glr-green);
+}
+
+.full-embed-container iframe {
+  width: 100%;
+  height: 100%;
+}
