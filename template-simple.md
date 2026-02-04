@@ -3,12 +3,11 @@ marp: true
 theme: glr
 paginate: true
 size: 16:9
-
 ---
 
 <!-- _class: logo-slide -->
 
-![w:400](images/image70.png)
+<img class="animate__animated animate__rubberBand" width="400" src="images/image70.png" />
 
 ![bg cover](images/image11.png)
 

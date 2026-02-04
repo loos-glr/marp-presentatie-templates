@@ -1,6 +1,7 @@
 /* @theme glr */
 
 @import "default";
+@import "animate.min.css";
 
 :root {
   --glr-green: #8fe507;
